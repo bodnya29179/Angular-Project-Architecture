@@ -249,6 +249,23 @@
 
 ## Additional notes
 
+### The `index.ts` files
+
+The `index.ts` allows Angular developers to keep all related things closely packed together, so they don’t need to bother about
+the source file name. This helps to reduce the size of introductory statements.
+
+### Avoid using business logic in the component
+
+Many developers mix the components and business logic, resulting in a complex and untidy mess that is difficult to
+comprehend. Hence, it is important to follow Angular development best practice guidelines and keep the logic separate
+from your components.
+
+The testing process of UI and components differ from Logic Testing.
+
+Different services for Business Logic are used to improve code reusability and quality. Having logic in a separate
+service will allow you to use it in multiple components. This would result in a reduction of build size and also lesser
+code.
+
 ### The `core` folder
 
 **Description:**
