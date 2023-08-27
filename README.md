@@ -226,6 +226,7 @@
     │   │   │   ├── ...
     │   │   │   └── index.scss
     │   │   │
+    │   │   ├── reset.scss
     │   │   ├── styles.scss
     │   │   └── index.scss
     │   │
